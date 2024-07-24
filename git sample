@@ -1,0 +1,17 @@
+D:
+cd <directory-name>
+git clone https://github.com/ashworks-png/cca-lab1.git
+git status
+git add .  # OR git add sample.txt
+git commit -m "initial commit"
+git push origin main
+git fetch origin
+git pull origin main
+git branch a1
+git branch
+git branch -M a1
+git checkout -b a2
+git checkout a1  # to switch branches
+git reset --soft a1
+git branch -d a1  # to delete a1 branch
+git rm <file-name>  # to delete a file from repo
